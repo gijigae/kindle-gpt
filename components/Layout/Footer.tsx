@@ -7,7 +7,7 @@ export const Footer: FC = () => {
         Created by
         <a
           className="hover:opacity-50 ml-1"
-          href="https://twitter.com/gijigae"
+          href="https://www.choimirai.com"
           target="_blank"
           rel="noreferrer"
         >
