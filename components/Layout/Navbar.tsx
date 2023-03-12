@@ -7,7 +7,7 @@ export const Navbar: FC = () => {
       <div className="font-bold text-2xl flex items-center">
         <a
           className="ml-2 hover:opacity-50"
-          href="https://kindle-gpt.vercel.app"
+          href="https://kindle-gpt-gijigae.vercel.app/"
         >
           Kindle GPT
         </a>
