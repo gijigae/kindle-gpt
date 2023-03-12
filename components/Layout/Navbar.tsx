@@ -1,4 +1,4 @@
-import { IconBrandGithub, IconBrandTwitter } from "@tabler/icons-react";
+import { IconBrandGithub, IconBrandTwitter, IconHome } from "@tabler/icons-react";
 import { FC } from "react";
 
 export const Navbar: FC = () => {
@@ -17,7 +17,7 @@ export const Navbar: FC = () => {
           See an
           <a
             className="ml-1 underline hover:opacity-50 cursor-pointer"
-            href="https://twitter.com/mckaywrigley/status/1634278243900735488?s=20"
+            href="https://twitter.com/gijigae/status/1634834919221510145?s=20"
             target="_blank"
             rel="noreferrer"
           >
@@ -27,7 +27,7 @@ export const Navbar: FC = () => {
         </div>
         <a
           className="flex items-center hover:opacity-50"
-          href="https://twitter.com/mckaywrigley"
+          href="https://twitter.com/gijigae"
           target="_blank"
           rel="noreferrer"
         >
@@ -36,11 +36,19 @@ export const Navbar: FC = () => {
 
         <a
           className="flex items-center hover:opacity-50"
-          href="https://github.com/mckaywrigley/kindle-gpt"
+          href="https://github.com/gijigae/kindle-gpt"
           target="_blank"
           rel="noreferrer"
         >
           <IconBrandGithub size={24} />
+        </a>
+        <a
+          className="flex items-center hover:opacity-50"
+          href="https://www.choimirai.com"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <IconHome size={24} />
         </a>
       </div>
     </div>
